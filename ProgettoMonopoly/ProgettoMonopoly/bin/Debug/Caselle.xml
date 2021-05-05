@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Persone xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Persona Nome="Filippo" Cognome="Omicini">
+    <Lavoro>Studente</Lavoro>
+    <DataNascita>05/10/2003</DataNascita>
+    <StipendioOrario>Nessuno</StipendioOrario>
+  </Persona>
+  <Persona Nome="Test" Cognome="Test">
+    <Lavoro>Test</Lavoro>
+    <DataNascita>Test</DataNascita>
+    <StipendioOrario>Test</StipendioOrario>
+  </Persona>
+  <Persona Nome="fgds&lt;fds" Cognome="fdsfds">
+    <Lavoro>fdsfsd</Lavoro>
+    <DataNascita />
+    <StipendioOrario />
+  </Persona>
+</Persone>

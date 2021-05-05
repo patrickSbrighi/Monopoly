@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MazzoProbabilita xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<ListaProbabilita>
+  <CartaProbabilita Id="1">
+    <Descrizione>Ritornate al vicolo corto</Descrizione>
+  </CartaProbabilita>
+  <CartaProbabilita Id="2">
+    <Descrizione>è maturata la cedola delle vostre azioni: ritirate 60 euro</Descrizione>
+  </CartaProbabilita>
+  <CartaProbabilita Id="3">
+    <Descrizione>Rimborso tassa sul reddito: ritirate 50 euro dalla banca</Descrizione>
+  </CartaProbabilita>
+  <CartaProbabilita Id="4">
+    <Descrizione>Avete vinto il secondo premio in un concorso di bellezza: ritirate 25 euro</Descrizione>
+  </CartaProbabilita>
+  <CartaProbabilita Id="5">
+    <Descrizione>Scade il vostro premio di assicurazione: pagate 125 euro</Descrizione>
+  </CartaProbabilita>
+  <CartaProbabilita Id="6">
+    <Descrizione>Pass per uscire gratis di prigione</Descrizione>
+  </CartaProbabilita>
+  <CartaProbabilita Id="7">
+    <Descrizione>Avete vinto un premio di consolazione alla lotteria di Merano: ritirate 250 euro</Descrizione>
+  </CartaProbabilita>
+  <CartaProbabilita Id="8">
+    <Descrizione>Andate fino al via</Descrizione>
+  </CartaProbabilita>
+  <CartaProbabilita Id="9">
+    <Descrizione>Pagate una multa di 25 euro, oppure prendete un cartoncino dagli imprevisti</Descrizione>
+  </CartaProbabilita>
+  <CartaProbabilita Id="10">
+    <Descrizione>Siete creditori verso la bancadi 500 euro, ritirateli</Descrizione>
+  </CartaProbabilita>
+  <CartaProbabilita Id="11">
+    <Descrizione>Avete perso una causa: pagate 250 euro</Descrizione>
+  </CartaProbabilita>
+  <CartaProbabilita Id="12">
+    <Descrizione>Andate in prigione direttamente e senza passare dal via</Descrizione>
+  </CartaProbabilita>
+  <CartaProbabilita Id="13">
+    <Descrizione>è il vostro compleanno: ogni giocatore vi regala 25 euro</Descrizione>
+  </CartaProbabilita>
+  <CartaProbabilita Id="14">
+    <Descrizione>Avete ceduto delle azioni: ricavate 125 euro</Descrizione>
+  </CartaProbabilita>
+  <CartaProbabilita Id="15">
+    <Descrizione>Pagate il conto del dottore: 125 euro</Descrizione>
+  </CartaProbabilita>
+</ListaProbabilita>
+</MazzoProbabilita>

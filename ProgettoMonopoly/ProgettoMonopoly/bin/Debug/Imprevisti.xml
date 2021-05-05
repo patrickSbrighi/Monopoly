@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MazzoImprevisti>
+<ListaImprevisti>
+  <CartaImprevisto Id="1">
+    <Descrizione>Andate sino al largo colombo: se passate dal via ritirate 500 euro</Descrizione>
+  </CartaImprevisto>
+  <CartaImprevisto Id="2">
+    <Descrizione>Andate in prigione direttamente e senza passare dal via</Descrizione>
+  </CartaImprevisto>
+  <CartaImprevisto Id="3">
+    <Descrizione>Stabili da riparare: pagare 60 euro per ogni casa e 250 per ogni albergo</Descrizione>
+  </CartaImprevisto>
+  <CartaImprevisto Id="4">
+    <Descrizione>Fate 3 passi indietro con tanti auguri</Descrizione>
+  </CartaImprevisto>
+  <CartaImprevisto Id="5">
+    <Descrizione>Andate sino a via accademia: se passate dal via ritirate 500 euro</Descrizione>
+  </CartaImprevisto>
+  <CartaImprevisto Id="6">
+    <Descrizione>Versate 50 euro per beneficienza</Descrizione>
+  </CartaImprevisto>
+  <CartaImprevisto Id="7">
+    <Descrizione>Andate alla stazione nord: se passate dal via ritirate 500 euro</Descrizione>
+  </CartaImprevisto>
+  <CartaImprevisto Id="8">
+    <Descrizione>Multa di 40 euro per aver guidato senza patente</Descrizione>
+  </CartaImprevisto>
+  <CartaImprevisto Id="9">
+    <Descrizione>Andate fino al parco della vittoria</Descrizione>
+  </CartaImprevisto>
+  <CartaImprevisto Id="10">
+    <Descrizione>Matrimonio in famiglia: spese impreviste 375 euro</Descrizione>
+  </CartaImprevisto>
+  <CartaImprevisto Id="11">
+    <Descrizione>Pass per uscire gratis di prigione</Descrizione>
+  </CartaImprevisto>
+  <CartaImprevisto Id="12">
+    <Descrizione>Maturano le cedole delle vostre cartelle di rendita, ritirate 375 euro</Descrizione>
+  </CartaImprevisto>
+  <CartaImprevisto Id="13">
+    <Descrizione>La banca vi paga gli interessi del vostro conto corrente, ritirate 125 euro</Descrizione>
+  </CartaImprevisto>
+  <CartaImprevisto Id="14">
+    <Descrizione>Andate avanti sino al via</Descrizione>
+  </CartaImprevisto>
+  <CartaImprevisto Id="15">
+    <Descrizione>Avete vinto un terno al lotto: ritirate 250 euro</Descrizione>
+  </CartaImprevisto>
+  <CartaImprevisto Id="16">
+    <Descrizione>Dovete pagare un contributo, 100 per ogni casa, 250 euro per ogni albergo</Descrizione>
+  </CartaImprevisto>
+  <CartaImprevisto Id="17">
+    <Descrizione>Andate in prigione direttamente e senza passare dal via</Descrizione>
+  </CartaImprevisto>
+</ListaImprevisti>
+</MazzoImprevisti>

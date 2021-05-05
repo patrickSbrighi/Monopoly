@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8260FFF6-5B06-4741-A009-B4556FA3C224}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProgettoMonopoly</RootNamespace>
+    <AssemblyName>ProgettoMonopoly</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Asta.cs" />
+    <Compile Include="Banca.cs" />
+    <Compile Include="Classi\Contratti\Contratto.cs" />
+    <Compile Include="Classi\Contratti\ContrattoImpresaPubblica.cs" />
+    <Compile Include="Classi\Contratti\ContrattoStazione.cs" />
+    <Compile Include="Classi\Contratti\ContrattoStrada.cs" />
+    <Compile Include="Distretto.cs" />
+    <Compile Include="FinestraDiGioco.xaml.cs">
+      <DependentUpon>FinestraDiGioco.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Gioco.cs" />
+    <Compile Include="ImpresaPubblica.cs" />
+    <Compile Include="Classi\Caselle\InPrigione.cs" />
+    <Compile Include="Classi\Carte imprevisto e probabilita\MazzoImprevisti.cs" />
+    <Compile Include="Classi\Carte imprevisto e probabilita\MazzoProbabilita.cs" />
+    <Compile Include="Parcheggio.cs" />
+    <Compile Include="Pedina.cs" />
+    <Compile Include="Classi\Caselle\Prigione.cs" />
+    <Compile Include="Classi\Caselle\Proprieta.cs" />
+    <Compile Include="Server.cs" />
+    <Compile Include="Stazione.cs" />
+    <Compile Include="Strada.cs" />
+    <Compile Include="Tabellone.cs" />
+    <Compile Include="Classi\Caselle\Via.cs" />
+    <Compile Include="Tassa.cs" />
+    <Compile Include="Turno.cs" />
+    <Page Include="FinestraDiGioco.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classi\Carte imprevisto e probabilita\Carta.cs" />
+    <Compile Include="Classi\Carte imprevisto e probabilita\CartaImprevisto.cs" />
+    <Compile Include="Classi\Carte imprevisto e probabilita\CartaProbabilita.cs" />
+    <Compile Include="Classi\Caselle\Casella.cs" />
+    <Compile Include="Imprevisto.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Probabilita.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiagram.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Immagini\tabelloneMonopoly.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="tabelloneMonopoly.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Immagini\FacceDadi\faccia1.png" />
+    <Resource Include="Immagini\FacceDadi\faccia2.png" />
+    <Resource Include="Immagini\FacceDadi\faccia3.png" />
+    <Resource Include="Immagini\FacceDadi\faccia4.png" />
+    <Resource Include="Immagini\FacceDadi\faccia5.png" />
+    <Resource Include="Immagini\FacceDadi\faccia6.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Immagini\Pedine\Cappello.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Immagini\Pedine\Scarpa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Immagini\Pedine\Ditale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Immagini\Pedine\Cariola.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

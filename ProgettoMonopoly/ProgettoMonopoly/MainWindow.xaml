@@ -1,0 +1,19 @@
+﻿<Window x:Class="ProgettoMonopoly.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgettoMonopoly"
+        mc:Ignorable="d"
+        Title="Home" Height="400" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="153,10,0,0" TextWrapping="Wrap" Text="Nome" VerticalAlignment="Top" FontSize="24"/>
+
+        <TextBox x:Name="txtBoxNome" HorizontalAlignment="Left" Height="40" Margin="10,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="372" FontSize="24" Text=""/>
+        <Button x:Name="btnInviaRichiestaGioco" Content="Gioca!" FontSize="24" Margin="115,274,115,35" Click="btnInviaRichiestaGioco_Click"/>
+        <Image x:Name="imgPedina" HorizontalAlignment="Left" Height="177" Margin="102,92,0,0" VerticalAlignment="Top" Width="189"/>
+        <Button x:Name="btnPedinaPrima" Content="&lt;" HorizontalAlignment="Left" Margin="57,166,0,0" VerticalAlignment="Top" Width="40" Height="34" FontSize="18" Click="btnPedinaPrima_Click"/>
+        <Button x:Name="btnPedinaDopo" Content=">" HorizontalAlignment="Left" Margin="296,166,0,0" VerticalAlignment="Top" Width="40" Height="34" FontSize="18" Click="btnPedinaDopo_Click"/>
+
+    </Grid>
+</Window>
