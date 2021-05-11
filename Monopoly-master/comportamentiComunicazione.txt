@@ -1,0 +1,67 @@
+Guarda classe banca. da togliere la banca è il server
+Metti messaggi del server in client.
+
+
+
+paolo(noi) luca marco giovanni
+
+Turn carta --> messaggio server
+	dadi
+	pedina
+	Eventuali imprevisti
+	risposta
+	Manda finish
+
+
+"""BANK"""
+
+|
+|
+|
+|
+||
+|
+|
+||
+|
+
+|
+|
+
+||
+
+||
+
+
+Is move luca
+	muovi luca
+	//eventualente togli carta
+	
+
+	buyed luca idcarta
+		assegna casa a luca
+		//togli carda da banca
+		
+	ipotecaed luca
+		togli casa a luca
+finish
+
+"""BANK"""
+|
+|
+|
+
+|
+
+|
+
+|
+|
+
+|
+|
+
+|
+|
+
+
