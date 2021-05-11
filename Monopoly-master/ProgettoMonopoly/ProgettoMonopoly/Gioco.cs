@@ -122,7 +122,7 @@ namespace ProgettoMonopoly
 
         }
         */
-        public Casella MuoviPedina(int sommaDadi, string nomeGiocatore)
+        public int MuoviPedina(int sommaDadi, string nomeGiocatore)//MORTE3
         {
             if (nomeGiocatore == PedinaPrincipale.Nome)
             {
@@ -130,13 +130,13 @@ namespace ProgettoMonopoly
                 {
                     if (!PedinaPrincipale.PedinaInPrigione)
                     {
-                        int posizioneAttualePedina = PedinaPrincipale.Posizione.Numerocasella;
+                        int posizioneAttualePedina = PedinaPrincipale.Posizione;
 
-                        PedinaPrincipale.Posizione = Tabellone.GetCasella(posizioneAttualePedina + sommaDadi);
+                        PedinaPrincipale.Posizione = Tabellone.GetCasella(posizioneAttualePedina + sommaDadi).Numerocasella;
 
-                        if (PedinaPrincipale.Posizione.Numerocasella < posizioneAttualePedina)
+                        if (PedinaPrincipale.Posizione < posizioneAttualePedina)
                         {
-                            PedinaPrincipale.DenaroPedina += (Tabellone.GetCasella(0) as Via).PassaggioDalVia;
+                            PedinaPrincipale.DenaroPedina += Tabellone.GetCasella(0).PassaggioDalVia();
                         }
 
                         Server.MuoviPedina(sommaDadi);
@@ -159,8 +159,8 @@ namespace ProgettoMonopoly
                 {
                     if (pedina.Nome == nomeGiocatore)
                     {
-                        int posizioneAttualePedina = pedina.Posizione.Numerocasella;
-                        pedina.Posizione = Tabellone.GetCasella(posizioneAttualePedina + sommaDadi);
+                        int posizioneAttualePedina = pedina.Posizione;
+                        pedina.Posizione = Tabellone.GetCasella(posizioneAttualePedina + sommaDadi).Numerocasella;
 
                         return pedina.Posizione;
                     }
@@ -169,9 +169,9 @@ namespace ProgettoMonopoly
             }
         }
 
-        public void CompraProprieta()
+        public void CompraProprieta()//TODO TOFIX
         {
-            if (PedinaPrincipale.Posizione is Proprieta && (PedinaPrincipale.Posizione as Proprieta).Comprata == false)
+            /*if (PedinaPrincipale.Posizione is Proprieta && (PedinaPrincipale.Posizione as Proprieta).Comprata == false)
             {
                 PedinaPrincipale.DenaroPedina -= (PedinaPrincipale.Posizione as Proprieta).Contratto.ValoreContratto;
                 PedinaPrincipale.ListaProprieta.Add(PedinaPrincipale.Posizione as Proprieta);
@@ -182,6 +182,10 @@ namespace ProgettoMonopoly
             {
                 throw new Exception();
             }
+
+
+            //if(Tabellone.GetCasella(PedinaPrincipale.Posizione) is //////////TOFIX TODO
+            */
         }
 
         public void RifiutaProprieta()
@@ -201,11 +205,11 @@ namespace ProgettoMonopoly
             return asta;
         }
         */
-        public void PagaAffitto()
+        public void PagaAffitto()//TODO TOFIX
         {
-            int affitto = (PedinaPrincipale.Posizione as Proprieta).Contratto.Rendita[(PedinaPrincipale.Posizione as Proprieta).LivelloProprieta];
+            /*int affitto = (PedinaPrincipale.Posizione as Proprieta).Contratto.Rendita[(PedinaPrincipale.Posizione as Proprieta).LivelloProprieta];
             PedinaPrincipale.DenaroPedina -= affitto;
-            (PedinaPrincipale.Posizione as Proprieta).Proprietario.DenaroPedina += affitto;
+            (PedinaPrincipale.Posizione as Proprieta).Proprietario.DenaroPedina += affitto;*/
         }
 
         /* TODO da fare che si miglira la proprietà solo nel proprio turno

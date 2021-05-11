@@ -8,7 +8,7 @@ namespace ProgettoMonopoly
 {
     public class Via : Casella
     {
-        private const int _valore = 200;
+        private const int _VALORE = 200;
         public Via(string nomeCasella, int numeroCasella, Thickness margine) : base(nomeCasella, numeroCasella, margine)
         {
 
@@ -18,7 +18,7 @@ namespace ProgettoMonopoly
         {
             get
             {
-                return _valore;
+                return _VALORE;
             }
         }
     }

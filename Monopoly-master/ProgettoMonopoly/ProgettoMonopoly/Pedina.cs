@@ -10,7 +10,7 @@ namespace ProgettoMonopoly
         private string _nome;
         private string _percorsoImmagine;
         private List<Proprieta> _listaProprieta;
-        private Casella _posizione;
+        private int _posizione; ///MORTE2
         private bool _pedinaInPrigione;
         private bool _pedinaInParcheggio;
         private float _denaroPedina;
@@ -59,7 +59,7 @@ namespace ProgettoMonopoly
             }
         }
 
-        public Casella Posizione
+        public int Posizione  ////MORTE
         {
             get
             {

@@ -61,27 +61,27 @@
     <Compile Include="Classi\Contratti\ContrattoImpresaPubblica.cs" />
     <Compile Include="Classi\Contratti\ContrattoStazione.cs" />
     <Compile Include="Classi\Contratti\ContrattoStrada.cs" />
-    <Compile Include="Distretto.cs" />
+    <Compile Include="Classi\Classi Inutilizzate\Distretto.cs" />
     <Compile Include="FinestraDiGioco.xaml.cs">
       <DependentUpon>FinestraDiGioco.xaml</DependentUpon>
     </Compile>
     <Compile Include="Gioco.cs" />
-    <Compile Include="ImpresaPubblica.cs" />
-    <Compile Include="Classi\Caselle\InPrigione.cs" />
+    <Compile Include="Classi\Classi Inutilizzate\ImpresaPubblica.cs" />
+    <Compile Include="Classi\Classi Inutilizzate\InPrigione.cs" />
     <Compile Include="Classi\Carte imprevisto e probabilita\MazzoImprevisti.cs" />
     <Compile Include="Classi\Carte imprevisto e probabilita\MazzoProbabilita.cs" />
     <Compile Include="Ipoteca.xaml.cs">
       <DependentUpon>Ipoteca.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Parcheggio.cs" />
+    <Compile Include="Classi\Classi Inutilizzate\Parcheggio.cs" />
     <Compile Include="Pedina.cs" />
-    <Compile Include="Classi\Caselle\Prigione.cs" />
-    <Compile Include="Classi\Caselle\Proprieta.cs" />
+    <Compile Include="Classi\Classi Inutilizzate\Prigione.cs" />
+    <Compile Include="Classi\Classi Inutilizzate\Proprieta.cs" />
     <Compile Include="Server.cs" />
-    <Compile Include="Stazione.cs" />
-    <Compile Include="Strada.cs" />
+    <Compile Include="Classi\Classi Inutilizzate\Stazione.cs" />
+    <Compile Include="Classi\Classi Inutilizzate\Strada.cs" />
     <Compile Include="Tabellone.cs" />
-    <Compile Include="Classi\Caselle\Via.cs" />
+    <Compile Include="Classi\Classi Inutilizzate\Via.cs" />
     <Compile Include="Tassa.cs" />
     <Compile Include="Classi\Classi Inutilizzate\Turno.cs" />
     <Page Include="FinestraDiGioco.xaml">

@@ -150,13 +150,14 @@ namespace ProgettoMonopoly
             estratti = true;
             int sommaDadi = int.Parse(imgDado1.Source.ToString()[imgDado1.Source.ToString().Length - 5].ToString()) + int.Parse(imgDado2.Source.ToString()[imgDado2.Source.ToString().Length - 5].ToString());
 
-            Casella casellaMovimento = client.MuoviPedina(sommaDadi, client.PedinaPrincipale.Nome);
+            int casellaMovimento = client.MuoviPedina(sommaDadi, client.PedinaPrincipale.Nome);
 
-            if (casellaMovimento is Proprieta && (casellaMovimento as Proprieta).Comprata == false)
+            //TODO TOFIX
+            /*if (casellaMovimento is Proprieta && (casellaMovimento as Proprieta).Comprata == false)//TODO TOFIX
             {
                 btnCompra.IsEnabled = true;
                 btnNonComprare.IsEnabled = true;
-            }
+            }*/
 
         }
 
