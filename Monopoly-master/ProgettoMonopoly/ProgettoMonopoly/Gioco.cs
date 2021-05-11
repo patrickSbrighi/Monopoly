@@ -13,10 +13,8 @@ namespace ProgettoMonopoly
         private Server _server;
         private Tabellone _tabellone;
         private List<Pedina> _listaPedine;
-        private Turno _turnoAttuale;
-        private Queue<Turno> _listaTurni;
 
-        public Gioco(Tabellone tabellone, Queue<Turno> listaTurni)
+        public Gioco(Tabellone tabellone)
         {
             // Setup(listaTurni);
         }

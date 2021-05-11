@@ -12,6 +12,7 @@ namespace ProgettoMonopoly
         private List<Proprieta> _listaProprieta;
         private Casella _posizione;
         private bool _pedinaInPrigione;
+        private bool _pedinaInParcheggio;
         private float _denaroPedina;
         private List<Proprieta> _listaProprietaIpotecate;
 
@@ -79,6 +80,18 @@ namespace ProgettoMonopoly
             set
             {
                 _pedinaInPrigione = value;
+            }
+        }
+
+        public bool PedinaInParcheggio
+        {
+            get
+            {
+                return _pedinaInParcheggio;
+            }
+            set
+            {
+                _pedinaInParcheggio = value;
             }
         }
         
