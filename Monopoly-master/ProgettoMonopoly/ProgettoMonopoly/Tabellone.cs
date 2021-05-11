@@ -121,18 +121,17 @@ namespace ProgettoMonopoly
 
         private void DeserializzazioneCaselle()
         {
-            XmlSerializer deserializzatore = new XmlSerializer(typeof(MazzoProbabilita));
-            using (StreamReader sr = new StreamReader("Probabilita.xml"))
+            XmlSerializer deserializzatore = new XmlSerializer(typeof(List<Casella>));
+            using (StreamReader sr = new StreamReader("Caselle.xml"))
             {
                 if (sr.ReadLine() != null)
                 {
-                    MazzoProbabilita = deserializzatore.Deserialize(sr) as MazzoProbabilita;
+                    ListaCaselle = deserializzatore.Deserialize(sr) as List<Casella>;
                 }
                 else
                 {
                     throw new Exception();
                 }
-
             }
         }
     }
